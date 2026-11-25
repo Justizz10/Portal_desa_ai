@@ -1,0 +1,9 @@
+# Versi dikunci sesuai yang diuji. scikit-learn WAJIB sama dengan versi pelatihan model (1.9.1),
+# jika berbeda, model .joblib bisa gagal dimuat atau memberi hasil yang berbeda.
+fastapi==0.165.0
+uvicorn[standard]==0.54.0
+pydantic==2.14.4
+scikit-learn==1.9.1
+numpy==2.5.5
+scipy==1.18.1
+joblib==1.6.0
