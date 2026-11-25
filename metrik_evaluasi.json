@@ -1,0 +1,65 @@
+{
+  "jumlah_data": 72,
+  "jumlah_per_kategori": {
+    "Kegiatan": 18,
+    "Potensi Desa": 18,
+    "Pengumuman": 18,
+    "Berita": 18
+  },
+  "parameter_terbaik": {
+    "C": 10,
+    "ngram_range": [
+      1,
+      2
+    ]
+  },
+  "cv_5fold": {
+    "akurasi": 0.9306,
+    "f1_macro": 0.9312
+  },
+  "holdout_25persen": {
+    "jumlah_uji": 18,
+    "akurasi": 0.9444
+  },
+  "latih_tambahan_uji_asli_akurasi": 0.875,
+  "confidence_rata2_benar": 0.5677,
+  "laporan_per_kelas": {
+    "Berita": {
+      "precision": 1.0,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.9411764705882353,
+      "support": 18.0
+    },
+    "Kegiatan": {
+      "precision": 0.8421052631578947,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.8648648648648649,
+      "support": 18.0
+    },
+    "Pengumuman": {
+      "precision": 0.8947368421052632,
+      "recall": 0.9444444444444444,
+      "f1-score": 0.918918918918919,
+      "support": 18.0
+    },
+    "Potensi Desa": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 18.0
+    },
+    "accuracy": 0.9305555555555556,
+    "macro avg": {
+      "precision": 0.9342105263157895,
+      "recall": 0.9305555555555556,
+      "f1-score": 0.9312400635930048,
+      "support": 72.0
+    },
+    "weighted avg": {
+      "precision": 0.9342105263157894,
+      "recall": 0.9305555555555556,
+      "f1-score": 0.9312400635930048,
+      "support": 72.0
+    }
+  }
+}
